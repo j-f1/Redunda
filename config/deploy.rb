@@ -1,6 +1,8 @@
 # config valid only for current version of Capistrano
 lock "3.7.2"
 
+require "whenever/capistrano"
+
 set :application, "Redunda"
 set :repo_url, "https://github.com/SOBotics/Redunda.git"
 
