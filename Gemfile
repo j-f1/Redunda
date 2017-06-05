@@ -11,6 +11,7 @@ gem 'awesome_print'
 gem 'will_paginate', github: "Undo1/will_paginate"
 gem 'will_paginate-bootstrap'
 gem 'rack-cors', :require => 'rack/cors'
+gem 'whenever', :require => false
 gem 'octokit', '~> 4.0'
 gem 'sem_ver'
 
